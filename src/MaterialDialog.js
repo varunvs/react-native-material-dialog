@@ -45,7 +45,7 @@ const MaterialDialog = ({
   children,
 }) => (
   <Modal
-    animationType={'fade'}
+    animationType='none'
     transparent
     hardwareAccelerated
     visible={visible}
